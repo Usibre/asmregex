@@ -7,6 +7,8 @@ This is a simple tool to enable pattern matching (RegEx) on assembly code. An ex
 ```
 How the tool works is explained in more depth below. 
 Note that the code has been a small research project and may not have the cleanest code or the best algorithmic speed out there. 
+
+Below is the automated MD conversion of the PDF included in this repository. I would kindly refer to the PDF version for a complete picture (and working references / tables). 
   
 ### Author 
 Jyy / Jordy Gennissen
