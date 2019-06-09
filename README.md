@@ -4,12 +4,15 @@ This is a simple tool to enable pattern matching (RegEx) on assembly code. An ex
   (<SS.RR.ALU.mov.lea,>G+
   <PP,>{1,2}  # push or pop 
   ){2,}```
-
+```
 How the tool works is explained in more depth below. 
 Note that the code has been a small research project and may not have the cleanest code or the best algorithmic speed out there. 
   
-==========
+### Author 
+Jyy / Jordy Gennissen
+
 Royal Holloway, University of London
+
 jordy.gennissen@rhul.ac.uk
 
 Background
