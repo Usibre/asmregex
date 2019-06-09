@@ -1,11 +1,22 @@
-Royal Holloway, University of London\
+## AsmRegex
+This is a simple tool to enable pattern matching (RegEx) on assembly code. An example pattern is as follows: 
+```[example-pattern.pat]
+  (<SS.RR.ALU.mov.lea,>G+
+  <PP,>{1,2}  # push or pop 
+  ){2,}```
+
+How the tool works is explained in more depth below. 
+Note that the code has been a small research project and may not have the cleanest code or the best algorithmic speed out there. 
+  
+==========
+Royal Holloway, University of London
 jordy.gennissen@rhul.ac.uk
 
 Background
 ==========
 
 *This is on the why and not the how, so feel free to skip this if you’re
-convinced.*\
+convinced.*
 
 A lot can be concluded by looking at code, whether it’s source code or a
 compiled, binary representation. However, when compiling, higher level
