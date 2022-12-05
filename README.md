@@ -154,7 +154,9 @@ with a dot. Some additional and non-existent opcodes have been added in
 capitals, defining a standard range of opcodes. These special ones are
 defined in table [opcodetable].
 
-  [opcodetable] opcode   Resulting range
+  [opcodetable] 
+```
+  opcode                 Resulting range
   ---------------------- ---------------------------------------------------------------------------------------
   any                    Any instruction
   JC                     Any conditional jump (regex(’j+’) but not jmp)
@@ -166,7 +168,7 @@ defined in table [opcodetable].
   PU                     Any push instruction (push, pusha, pushf)
   PO                     Any pop instruction (pop, popa, popf)
   PP                     Any push or pop instruction ( PU | PO )
-
+```
 Apart from these additional ranges of instructions, only concrete and
 exact opcodes can be matched. If you feel anything is missing in this
 list, feel free to add it or to let me know.
@@ -191,14 +193,16 @@ own. However, like in the opcodes, certain standard patterns have been
 precompiled to match against the usual arguments of instructions. These
 can be found in table [argtable].
 
-  [argtable] Argument   meaning
+  [argtable] 
+```
+  Argument              meaning
   --------------------- ----------------------------------------------------------------------------------
   RR                    Referenced Register (i.e. [rax - 0xa] )
   DR                    Direct Register (i.e. ebx)
   CC                    Concrete Constant (i.e. 1 or 0x1234)
   PV                    (likely) Pointer Value: 0x400000 - 0x40ffff
   RC                    (likely) Random Constant: 0x9 \< x \< 0xfffffffe, but not a pointer ($^\lnot$PV)
-
+```
 Options
 -------
 
